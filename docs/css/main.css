@@ -13,5 +13,19 @@
 .columnTitle {
     color: #1215ff;
     font-size: x-large;
+    font-family: 'Geneva'
+}
 
+.maintext {
+    font-family: 'Geneva';
+    color: #fefefa;
+}
+
+.maintextBlack {
+    font-family: 'Geneva';
+    color: #030705;
+}
+
+a {
+    text-decoration: none;
 }
