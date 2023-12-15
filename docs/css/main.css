@@ -26,6 +26,15 @@
     color: #030705;
 }
 
+.hugeHeader {
+	color: #1215ff;
+	font-weight: bold;
+}
+
+.smallHeader  {
+	color: #fefefa;
+	font-weight: bold;
+
 a {
     text-decoration: none;
 }
