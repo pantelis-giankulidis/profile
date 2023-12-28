@@ -1,5 +1,6 @@
 # 💫 About Me:
-Machine learning engineer , currently working in small projects involving reinforcement learning 
+I am a software engineer, with working experience mainly with back-end software development in C++ and java, involved in Devops procedures with openshift and teamcity and limited but fundamental knowledge of front-end web frameworks like angular.
+I have also worked as a machine learning engineer in academia, working in the training and deployment of small projects involving reinforcement learning. 
 
 
 ## 🌐 Socials:
