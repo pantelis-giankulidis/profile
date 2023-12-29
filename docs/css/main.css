@@ -11,14 +11,20 @@
 }
 
 .columnTitle {
-    color: #1215ff;
+    color: #1275ae;
     font-size: x-large;
     font-family: 'Geneva'
 }
 
 .maintext {
     font-family: 'Geneva';
-    color: #fefefa;
+    color: #868686;
+}
+
+.smalltext{
+    font-family: 'Geneva';
+    font-size: 10px;
+    color: #868686;
 }
 
 .maintextBlack {
@@ -27,12 +33,12 @@
 }
 
 .hugeHeader {
-	color: #1215ff;
+	color: #1275ae;
 	font-weight: bold;
 }
 
 .smallHeader  {
-	color: #fefefa;
+	color: #696969;
 	font-weight: bold;
 
 a {
