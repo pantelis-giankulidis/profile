@@ -37,9 +37,14 @@
 	font-weight: bold;
 }
 
+.subsubHeader {
+    color: #1275ae;
+}
 .smallHeader  {
 	color: #696969;
 	font-weight: bold;
+}
+
 
 a {
     text-decoration: none;
