@@ -1,5 +1,5 @@
 # 💫 About Me:
-I am a software engineer, with working experience mainly with back-end software development in C++ and java, involved in Devops procedures with openshift and teamcity and limited but fundamental knowledge of front-end web frameworks like angular.
+I am a full-stack software engineer, with working experience mainly with back-end software development in C++ and java, involved in Devops procedures with openshift and teamcity and solid fundamental knowledge of two front-end web frameworks, React and angular.
 I have also worked as a machine learning engineer in academia, working in the training and deployment of small projects involving reinforcement learning. 
 
 
