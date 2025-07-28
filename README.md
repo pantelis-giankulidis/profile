@@ -3,13 +3,13 @@ Technical expertise spans full-stack software development, with project delivery
 
 Responsibilities have included:
 
-Designing RESTful APIs and microservices
+* Designing RESTful APIs and microservices
 
-Implementing data-driven features using SQL and ORM frameworks
+* Implementing data-driven features using SQL and ORM frameworks
 
-Developing dynamic front-end interfaces using Angular
+* Developing dynamic front-end interfaces using Angular
 
-Ensuring performance, security, and code quality through testing and review processes
+* Ensuring performance, security, and code quality through testing and review processes
 
 Academic work includes a diploma thesis in reinforcement learning, leveraging the SUMO traffic simulation library in C++ for agent-based traffic optimization. Additional ML experience includes implementation of neural network architectures in PyTorch, with emphasis on model experimentation and reproducibility.
 
