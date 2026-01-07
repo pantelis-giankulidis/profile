@@ -4,6 +4,26 @@
     clear: both;
 }
 
+.index-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border-radius: 10%;
+}
+
+.element {
+    width: 70%;
+    margin: auto;
+    border: 1px dashed #1275ae;
+    border-radius: 10px;
+}
+
+.timeline {
+    font-size: 10px;
+    color: #1275ae;
+}
+
 .column {
     float: left;
     width: 49.33%;
@@ -18,7 +38,8 @@
 
 .maintext {
     font-family: 'Geneva';
-    color: #868686;
+    color: #565656;
+    font-size: 12px;
 }
 
 .smalltext{
