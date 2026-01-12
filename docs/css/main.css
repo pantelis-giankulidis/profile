@@ -4,6 +4,28 @@
     clear: both;
 }
 
+.index-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border-radius: 10%;
+}
+
+.element {
+    margin: auto;
+    border: 1px dashed #1275ae;
+    border-radius: 10px;
+}
+
+
+.timeline {
+    margin-top: 24px;
+    color: #1275ae;
+    font-size: 13px;
+    font-weight: bold;
+}
+
 .column {
     float: left;
     width: 49.33%;
@@ -12,16 +34,17 @@
 
 .columnTitle {
     color: #1275ae;
-    font-size: x-large;
+    font-size: large;
     font-family: 'Geneva'
 }
 
 .maintext {
     font-family: 'Geneva';
-    color: #868686;
+    color: #565656;
+    font-size: 12px;
 }
 
-.smalltext{
+.smalltext {
     font-family: 'Geneva';
     font-size: 10px;
     color: #868686;
@@ -33,18 +56,20 @@
 }
 
 .hugeHeader {
-	color: #1275ae;
-	font-weight: bold;
+    color: #1275ae;
+    font-weight: bold;
 }
 
 .subsubHeader {
     color: #1275ae;
 }
-.smallHeader  {
-	color: #696969;
-	font-weight: bold;
+
+.smallHeader {
+    color: #696969;
+    font-weight: bold;
 }
-.course{
+
+.course {
     color: #1275ae
 }
 
