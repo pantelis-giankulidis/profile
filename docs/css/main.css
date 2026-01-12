@@ -13,15 +13,17 @@
 }
 
 .element {
-    width: 70%;
     margin: auto;
     border: 1px dashed #1275ae;
     border-radius: 10px;
 }
 
+
 .timeline {
-    font-size: 10px;
+    margin-top: 24px;
     color: #1275ae;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 .column {
@@ -32,7 +34,7 @@
 
 .columnTitle {
     color: #1275ae;
-    font-size: x-large;
+    font-size: large;
     font-family: 'Geneva'
 }
 
@@ -42,7 +44,7 @@
     font-size: 12px;
 }
 
-.smalltext{
+.smalltext {
     font-family: 'Geneva';
     font-size: 10px;
     color: #868686;
@@ -54,18 +56,20 @@
 }
 
 .hugeHeader {
-	color: #1275ae;
-	font-weight: bold;
+    color: #1275ae;
+    font-weight: bold;
 }
 
 .subsubHeader {
     color: #1275ae;
 }
-.smallHeader  {
-	color: #696969;
-	font-weight: bold;
+
+.smallHeader {
+    color: #696969;
+    font-weight: bold;
 }
-.course{
+
+.course {
     color: #1275ae
 }
 
