@@ -1,112 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pantelis Giankoulidis — full stack software engineer in Prague, working across banking platforms, web technologies and machine learning.">
+  <title>Pantelis Giankoulidis | Software Engineer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
 </head>
 
-<body style="background-color: #efefef;">
-
-  <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <img src="./images/icons8-internet-64.png" width="30" class="logo" />
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+<body>
+  <nav class="navbar navbar-expand-lg site-nav sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" aria-label="Pantelis Giankoulidis home"><span class="brand-mark">PG</span><span class="brand-name">Pantelis Giankoulidis</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
+        <div class="navbar-nav ms-auto align-items-lg-center">
           <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           <a class="nav-link" href="research.html">Work/Research</a>
           <a class="nav-link" href="Projects.html">Portfolio</a>
           <a class="nav-link" href="index.html">Blog</a>
           <a class="nav-link" href="About.html">Bio</a>
           <a class="nav-link" href="Contact.html">Contact/Social</a>
-
-          <a class="nav-link" href="Contact.html">
-            <img src="./images/profile.jpg" class="rounded-circle" width="20">
-          </a>
+          <a class="nav-link nav-avatar" href="Contact.html" aria-label="Contact Pantelis"><img src="./images/profile.jpg" alt="" class="rounded-circle"></a>
         </div>
       </div>
     </div>
   </nav>
 
-  <p class="display-6 text-center hugeHeader">Pantelis Giankoulidis</p>
-  <img src="./images/profile.jpg" class="index-picture">
+  <main>
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> SOFTWARE ENGINEER · PRAGUE, CZECHIA</div>
+          <h1>Building dependable software for <span>complex, real-world problems.</span></h1>
+          <p class="hero-lead">I’m Pantelis, a full stack engineer working on banking applications at Barclays. I bring together thoughtful product engineering and a background in machine learning research.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" href="Projects.html">Explore my work <span aria-hidden="true">↗</span></a>
+            <a class="btn btn-outline-dark btn-lg" href="Contact.html">Get in touch</a>
+          </div>
+          <div class="hero-tags" aria-label="Core technologies"><span>Java</span><span>Angular</span><span>Spring</span><span>Python</span><span>PostgreSQL</span></div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+          <div class="visual-grid" aria-hidden="true"></div>
+          <div class="profile-frame"><img src="./images/profile.jpg" alt="Portrait of Pantelis Giankoulidis"></div>
+          <div class="floating-note note-role"><span class="note-icon">⌘</span><span><strong>Full stack</strong><small>Product engineering</small></span></div>
+          <div class="floating-note note-location"><span class="location-pin">●</span><span><strong>Based in Prague</strong><small>Working across Europe</small></span></div>
+          <span class="visual-spark spark-one">✳</span><span class="visual-spark spark-two">+</span>
+        </div>
+      </div>
+    </section>
 
-  <p class="display-9 text-center smallHeader">Full Stack software engineer, with a passion for Machine Learning and
-    its uses in real-world products</p>
+    <section class="proof-strip" aria-label="Professional summary">
+      <div class="container proof-grid"><div><strong>Barclays</strong><span>Full stack software engineer</span></div><div><strong>Finance</strong><span>Production banking applications</span></div><div><strong>Research</strong><span>Machine learning &amp; autonomous systems</span></div><div><strong>Prague</strong><span>Czechia · open to opportunities</span></div></div>
+    </section>
 
-  <div class="row">
-    <div class="col-1"></div>
-    <div class="col-9 element">
-      <p class="p-2 pe-4 text-center maintext">
-        Full-stack software engineer, Barclays development center, Prague
-      </p>
-      <p class="p-2 pe-4 text-center smalltext">
-        Working on developing and maintaining internal banking applications using modern web technologies such as
-        Angular,
-        Spring, and PostgreSQL. Collaborating with cross-functional teams to deliver high-quality software solutions
-        that
-        improve operational efficiency and user experience.
-      </p>
-    </div>
-    <div class="col-2 timeline">(May 2023 - )</div>
-  </div>
+    <section class="section-block experience-section">
+      <div class="container">
+        <div class="section-heading"><div><p class="section-kicker">CAREER SNAPSHOT</p><h2>Experience that connects <span>research and delivery.</span></h2></div><a class="text-link" href="About.html">Full background <span aria-hidden="true">↗</span></a></div>
+        <div class="experience-list">
+          <article class="experience-card current-role"><div class="experience-marker"><span></span></div><div class="experience-main"><div class="experience-meta"><span>May 2023 — Present</span><span class="current-badge">CURRENT</span></div><h3>Full Stack Software Engineer</h3><p class="company-line">Barclays <span>·</span> Prague, Czechia</p><p>Developing and maintaining internal banking applications, with Angular interfaces, Spring services and PostgreSQL data. Partnering with cross-functional teams to improve operational workflows and deliver dependable software.</p><div class="tag-list"><span>Angular</span><span>Spring</span><span>PostgreSQL</span><span>Microservices</span></div></div><a class="experience-arrow" href="research.html" aria-label="Read about work and research">↗</a></article>
+          <article class="experience-card"><div class="experience-marker"><span></span></div><div class="experience-main"><div class="experience-meta"><span>2021 — 2023</span><span>RESEARCH</span></div><h3>Research Engineer · Traffic Fluid</h3><p class="company-line">Technical University of Crete <span>·</span> Chania, Greece</p><p>Developed machine learning and decision-making approaches for lane-free traffic prediction and autonomous driving, using Python and C++.</p><div class="tag-list"><span>Python</span><span>C++</span><span>Machine learning</span><span>Autonomous systems</span></div></div><a class="experience-arrow" href="research.html" aria-label="Read about work and research">↗</a></article>
+        </div>
+      </div>
+    </section>
 
-  <h1 class="text-center">|</h1>
+    <section class="focus-section"><div class="container focus-grid"><div><p class="section-kicker">HOW I WORK</p><h2>Strong systems.<br><span>Useful outcomes.</span></h2><p class="focus-copy">I enjoy the full path from understanding a problem to shipping a maintainable solution—whether that means shaping an API, building an interface, or testing an idea with data.</p><a class="btn btn-light" href="About.html">More about me <span aria-hidden="true">↗</span></a></div><div class="focus-items"><div class="focus-item"><span class="focus-number">01</span><div><h3>Product-minded engineering</h3><p>Building practical features with an eye on usability, reliability and long-term maintenance.</p></div></div><div class="focus-item"><span class="focus-number">02</span><div><h3>Full stack perspective</h3><p>Comfortable moving between web interfaces, backend services, APIs and relational data.</p></div></div><div class="focus-item"><span class="focus-number">03</span><div><h3>Curiosity grounded in research</h3><p>Applying an analytical approach shaped by graduate work in machine learning and autonomous systems.</p></div></div></div></div></section>
 
-  <div class="row">
-    <div class="col-1"></div>
-    <div class="col-9 element">
-      <p class="p-2 pe-4 text-center maintext">
-        Member of the traffic fluid
-        project, a
-        European Research Council grant, Technical University of Crete, Chania
-      </p>
-      <p class="text-center smalltext">
-        Worked on developing machine learning models for lane-free traffic flow prediction, using Python and C++.
-        Collaborated
-        with a team of researchers to analyze traffic data, vehicle's behavour and implement algorithms that improved
-        the accuracy of decisions of rational agents.
-      </p>
-    </div>
-    <div class="col-2 timeline">(Sep 2021-Jan 2023)</div>
-  </div>
-
-
-  <h1 class="text-center">|</h1>
-
-  <div class="row">
-    <div class="col-1"></div>
-    <div class="col-9 element">
-      <p class="p-3 pe-5 text-center maintext">
-        Graduate Student, Electrical and Computer Engineering (ECE), Technical University of Crete(TUC),
-        Chania
-      </p>
-    </div>
-    <div class="col-2 timeline">(2023)</div>
-  </div>
-
-
-  <h1 class="text-center">|</h1>
-  <div class="row">
-    <div class="col-1"></div>
-    <div class="col-9 element">
-      <p class="p-3 pe-5 text-center maintext">Undergraduate student, Electrical and Computer Engineering (ECE),
-        Technical
-        University of Crete(TUC),
-        Chania</p>
-    </div>
-    <div class="col-2 timeline">(2022)</div>
-  </div>
-
-
+    <section class="contact-band"><div class="container contact-band-inner"><div><p class="section-kicker">LET’S CONNECT</p><h2>Have a role or a challenge in mind?</h2><p>I’m open to conversations about full stack engineering opportunities.</p></div><a class="btn btn-primary btn-lg" href="Contact.html">Contact me <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="site-footer"><div class="container"><span>© <span id="year">2026</span> Pantelis Giankoulidis</span><span>Software engineer · Prague, Czechia</span><a href="Contact.html">Contact &amp; social <span aria-hidden="true">↗</span></a></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
